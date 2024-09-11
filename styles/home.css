@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.d-item {
+  max-height: 800px;
+  overflow: hidden;
+}
+
+.d-img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+header h1 {
+  color: red;
+}
