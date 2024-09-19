@@ -40,7 +40,7 @@ h1 {
   font-weight: 550;
 }
 
-.nashe {
+.card-container {
   padding: 30px;
   gap: 60px;
   width: 100%;
@@ -51,5 +51,5 @@ h1 {
 
 .card {
   /* box-sizing: content-box; */
-  padding: 10px 5px;
+  padding: 10px 0;
 }
