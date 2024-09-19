@@ -45,3 +45,11 @@ h1 {
   gap: 60px;
   width: 100%;
 }
+.img-card {
+  width: 90%;
+}
+
+.card {
+  /* box-sizing: content-box; */
+  padding: 10px 5px;
+}
