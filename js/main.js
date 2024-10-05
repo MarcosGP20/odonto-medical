@@ -32,3 +32,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navbarContainer = document.querySelector("#navbar-container");
+
+  if (navbarContainer) {
+    fetch("/modules/navbar.html")
+      .then((response) => {
+        return response.text();
+      })
+      .then((data) => {
+        navbarContainer.innerHTML = data;
+      })
+      .catch((error) => {
+        console.error("Error al cargar el navbar:", error);
+      });
+  }
+});

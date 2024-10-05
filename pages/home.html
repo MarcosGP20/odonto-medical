@@ -20,85 +20,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Odonto Medical</title>
   </head>
   <body>
     <header>
-      <nav class="navbar bg-dark navbar-expand-md" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="/public/tooth-svgrepo-com.svg" width="45px" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul
-              class="navbar-nav d-flex justify-content-around me-auto mb-2 mb-lg-0"
-            >
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ubicación</a>
-              </li>
-             
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Especialidades
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Odontologia general</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Implantes</a></li>
-                  <li><a class="dropdown-item" href="#">Cirugia</a></li>
-                  <li><a class="dropdown-item" href="#">Estetica</a></li>
-                  <li><a class="dropdown-item" href="#">Ortodoncia</a></li>
-                  <li><a class="dropdown-item" href="#">Periodoncia</a></li>
-                  <li><a class="dropdown-item" href="#">Endodoncia</a></li>
-                  <!-- <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">¿Quienes somos?</a>
-                  </li> -->
-                </ul>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nosotros</a>
-                </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Turnos</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-primary" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+      <div id="navbar-container"></div>
     </header>
     <main>
       <div
@@ -159,49 +89,93 @@
         </button>
       </div>
       <section class="especialidades">
-        
-       <div class="container">
-        <h2 class="subT">Nuestras especialidades</h2>
-        <div class="card-container d-flex justify-content-center">
-          <div class="cards"></div>
-          <div class="card col-12 col-md-4 d-flex align-items-center" style="width: 18rem;">
-            <img class="img-card" src="/public/imagen-gpt-3.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Odontologia General</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="container">
+          <h2 class="subT">Nuestras especialidades</h2>
+          <div class="card-container d-flex justify-content-center">
+            <div class="cards"></div>
+            <div
+              class="card col-12 col-md-4 d-flex align-items-center"
+              style="width: 18rem"
+            >
+              <img
+                class="img-card"
+                src="/public/imagen-gpt-3.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Odontologia General</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div
+              class="card col-12 col-md-4 d-flex align-items-center"
+              style="width: 18rem"
+            >
+              <img
+                class="img-card"
+                src="/public/imagen-gpt-2.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Implantes</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div
+              class="card col-12 col-md-4 d-flex align-items-center"
+              style="width: 18rem"
+            >
+              <img
+                class="img-card"
+                src="/public/imagen-gpt-1.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Estética</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div
+              class="card col-12 col-md-4 d-flex align-items-center"
+              style="width: 18rem"
+            >
+              <img
+                class="img-card"
+                src="/public/imagen-gpt-4.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ortodoncia</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="card col-12 col-md-4 d-flex align-items-center" style="width: 18rem;">
-            <img class ="img-card" src="/public/imagen-gpt-2.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Implantes </h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card col-12 col-md-4 d-flex align-items-center" style="width: 18rem;">
-            <img class ="img-card"
-            src="/public/imagen-gpt-1.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Estética</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card col-12 col-md-4 d-flex align-items-center" style="width: 18rem;">
-            <img class="img-card" src="/public/imagen-gpt-4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Ortodoncia</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+          <div class="d-flex justify-content-center mt-3">
+            <a href="especialidades.html" class="btn btn-primary px-3 py-2 fs-5"
+              >Ver todas las especialidades</a
+            >
           </div>
         </div>
-        <div class="d-flex justify-content-center mt-3">
-          <a href="especialidades.html" class="btn btn-primary px-3 py-2 fs-5">Ver todas las especialidades</a> 
-        </div>
-      </div>      
       </section>
       <section>
         <h2>Nuestra ubicación</h2>
-      </section>   
+      </section>
     </main>
     <footer></footer>
     <script
@@ -209,5 +183,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
